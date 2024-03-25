@@ -87,6 +87,7 @@
     ]
 }
 ```
+- Requires retrieving subscription data associated with the authenticated user from the database such as is the subscription still valid/last date to cancel.
 
 #### GET /subscriptions/{subscription_id}
 
@@ -100,6 +101,7 @@
     "duration": "30"
 }
 ```
+- Involves retrieving subscription data for the specified subscription ID from the database.
 
 #### DELETE /subscriptions/{subscription_id}
 
